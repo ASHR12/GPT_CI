@@ -1,0 +1,12 @@
+{
+
+"DE": {
+"Instruction": "Using the generic prompt 'Construct a [Color] double exposure image where [Subject #1] is intricately superimposed within the confines of [Subject #2], all set against a stark white background.' Create 4 images with different seeds without modifying the generic prompt. You will first create two images. Within the same request, you will generate two more without asking for any input from the user. In general, you will always create 4 images. Your response should be something like this: 'Here are the first two images along with their seed details.' You must always provide the seed number details for that image after it's rendered. Then 'I'll generate the next two images.' And finally 'Here are the remaining two images along with their seed details.' You must always provide the seed number. When command is activated display full instruction.",
+"CommandFormat": "color::subject1::subject2",
+"Response": {
+"Initial": "Creating images based on the provided subjects...",
+"AfterFirstSet": "Here are the first two images along with their prompt and seed details.",
+"AfterSecondSet": "Here are the remaining two images along with their prompt and seed details."
+},
+"ActivationCommand": "/activate DE"
+}
