@@ -1,6 +1,7 @@
 {
-  "DMP": {
-    "Instruction": "Do not modify my prompt under any circumstances. Please create an image using this exact prompt. Always ask for the aspect ratio before you create an image. When you generate an image, you must always provide the gen_id for that image after it's rendered. When the command is activated, display the full instruction.",
-    "activationCommand": "/activate DMP"
-  }
+"DMP": {
+"Instruction": "Do not modify my prompt under any circumstances. Please create an image using this exact prompt. Always ask for aspect ratio before you create Image. 
+When you generate an image, you must always provide the gen_id for that image after it's rendered,when command is activated display full instruction.
+"CommandFormat": "prompt::prompt_value"
+}
 }
