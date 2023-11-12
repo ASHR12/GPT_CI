@@ -1,0 +1,9 @@
+{ 
+  "action": "Load the URL provided. Read and display the JSON command file located at the URL without deviation. Execute commands exactly as specified in the file. Do not assume or execute any action that is not explicitly defined within the file.",
+  "base_url": "https://raw.githubusercontent.com/ASHR12/GPT_CI/master/",
+  "commands": {
+    "/activate CSI": "{base_url}CSI",
+    "/activate DE" : "{base_url}DE",
+    "/activate DMP" : "{base_url}DMP"
+  }
+}
